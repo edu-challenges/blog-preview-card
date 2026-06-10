@@ -105,13 +105,13 @@ main {
     background-color: var(--white);
     border-radius: 1.5rem;
     border: 2px;
-    border-style: outset;
+    border-style: solid;
     border-color: black;
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
     box-shadow: 0.5rem 0.5rem 0 0 black;
-    width: 375px;
+    max-width: 400px;
     gap: 1rem;
 
     > img:first-of-type {
@@ -119,6 +119,12 @@ main {
       height: 235px;
       object-fit: cover;
       margin-bottom: 0.5rem;
+    }
+
+    @media (min-width: 768px) {
+      > img:first-of-type {
+        height: 200px;
+      }
     }
 
     .tag {

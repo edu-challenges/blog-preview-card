@@ -7,7 +7,6 @@ This is my solution to the [Blog preview card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Current status](#current-status)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,17 +24,11 @@ The main goal is to recreate the layout, spacing, typography, and visual details
 
 ### Current status
 
-- Implemented: Mobile version of the card layout
+- Completed: Mobile and desktop/responsive card layout
 - Implemented: Semantic heading structure (`h2`) with a link for the article title
 - Implemented: Hover and focus-visible state for the title link
-- Pending: Responsive behavior is not implemented yet
-- Pending: Desktop version
 
-I will add responsive behavior and desktop refinements in upcoming updates.
-
-### Screenshot
-
-Screenshot pending.
+This challenge is now complete.
 
 ### Links
 
@@ -65,7 +58,7 @@ In this stage of the project, I practiced:
 
 Next, I want to focus on:
 
-- Improving responsiveness for desktop sizes
+- Building more Frontend Mentor challenges to keep improving layout precision and accessibility.
 
 ## Author
 
