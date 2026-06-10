@@ -26,11 +26,12 @@ The main goal is to recreate the layout, spacing, typography, and visual details
 ### Current status
 
 - Implemented: Mobile version of the card layout
+- Implemented: Semantic heading structure (`h2`) with a link for the article title
+- Implemented: Hover and focus-visible state for the title link
 - Pending: Responsive behavior is not implemented yet
 - Pending: Desktop version
-- Pending: Hover states and any interactivity/focus behavior
 
-I will add responsive behavior, hover states, and interactivity in upcoming updates.
+I will add responsive behavior and desktop refinements in upcoming updates.
 
 ### Screenshot
 
@@ -48,6 +49,7 @@ Screenshot pending.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS nesting
 - Mobile-first workflow
 
 ### What I learned
@@ -63,7 +65,6 @@ In this stage of the project, I practiced:
 
 Next, I want to focus on:
 
-- Adding hover/focus states for interactive elements
 - Improving responsiveness for desktop sizes
 
 ## Author
