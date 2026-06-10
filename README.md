@@ -32,8 +32,8 @@ This challenge is now complete.
 
 ### Links
 
-- Solution URL: Pending
-- Live Site URL: Pending
+- Solution URL: https://github.com/edu-challenges/blog-preview-card
+- Live Site URL: https://edu-challenges.github.io/blog-preview-card/
 
 ## My process
 
