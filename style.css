@@ -74,15 +74,65 @@ h6 {
   --gray-500: hsl(0, 0%, 42%);
   --gray-900: hsl(0, 0%, 7%);
 
+  --font-size-xl: 24px;
+  --font-size-normal: 16px;
+  --font-size-sm: 14px;
   --font-primary: "Figtree", sans-serif;
-  --font-weight-regular: 500;
-  --font-weight-bold: 800;
+  --font-medium: 500;
+  --font-extrabold: 800;
+}
+
+body {
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 main {
-  background-color: var(--yellow);
   font-family: var(--font-primary);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-medium);
+  font-size: var(--font-size-normal);
+  display: flex;
+
+  article {
+    background-color: var(--white);
+    border-radius: 1rem;
+    border: 1px;
+    border-style: outset;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 0.5rem 0.5rem 0 0 black;
+    width: 375px;
+    gap: 1rem;
+
+    > img:first-of-type {
+      border-radius: 1rem;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .tag {
+      background-color: var(--yellow);
+      padding-block: 0.5rem;
+      padding-inline: 1rem;
+      font-weight: var(--font-extrabold);
+      font-size: var(--font-size-sm);
+      border-radius: 0.3rem;
+      width: fit-content;
+    }
+
+    h2 {
+      font-size: var(--font-size-xl);
+      font-weight: var(--font-extrabold);
+    }
+  }
 }
 
 /* attribution */
